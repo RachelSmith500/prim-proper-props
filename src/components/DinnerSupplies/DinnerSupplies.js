@@ -6,13 +6,13 @@ class DinnerSupplies extends Component {
             <>
                 <h2>Dinner Supplies</h2>
                 <div>
-                Spoons: {this.state.guestList.length * 2}
+                Spoons: {this.props.count * 2}
                 </div>
                 <div>
-                Forks: {this.state.guestList.length * 2}
+                Forks: {this.props.count * 2}
                 </div>
                 <div>
-                Knives: {this.state.guestList.length * 2}
+                Knives: {this.props.count * 2}
                 </div>
             </>
         )
